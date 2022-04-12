@@ -194,12 +194,14 @@ a:hover {
         -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
         animation-timing-function: linear;    
         transition-duration: 0.25s;
+        cursor: pointer;
     }
     .blog-card:hover {
         transform: scale(1.05);
         -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
         animation-timing-function: linear;    
         transition-duration: 0.25s;
+        cursor: pointer;
     }
     .latest {
         font-size: medium; 

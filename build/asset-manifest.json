@@ -1,5 +1,5 @@
 {
-  "main.css": "/Tweeter/static/css/main.78202406.chunk.css",
+  "main.css": "/Tweeter/static/css/main.73603cbb.chunk.css",
   "main.js": "/Tweeter/static/js/main.9529e319.chunk.js",
   "main.js.map": "/Tweeter/static/js/main.9529e319.chunk.js.map",
   "runtime~main.js": "/Tweeter/static/js/runtime~main.e8d7bb0f.js",
@@ -10,8 +10,8 @@
   "static/js/3.66b94e81.chunk.js": "/Tweeter/static/js/3.66b94e81.chunk.js",
   "static/js/3.66b94e81.chunk.js.map": "/Tweeter/static/js/3.66b94e81.chunk.js.map",
   "index.html": "/Tweeter/index.html",
-  "precache-manifest.94b0be59fe307c861074502453f7f3d6.js": "/Tweeter/precache-manifest.94b0be59fe307c861074502453f7f3d6.js",
+  "precache-manifest.52a648df8b5e462592f751fa471dc383.js": "/Tweeter/precache-manifest.52a648df8b5e462592f751fa471dc383.js",
   "service-worker.js": "/Tweeter/service-worker.js",
   "static/css/2.76f79a34.chunk.css.map": "/Tweeter/static/css/2.76f79a34.chunk.css.map",
-  "static/css/main.78202406.chunk.css.map": "/Tweeter/static/css/main.78202406.chunk.css.map"
+  "static/css/main.73603cbb.chunk.css.map": "/Tweeter/static/css/main.73603cbb.chunk.css.map"
 }

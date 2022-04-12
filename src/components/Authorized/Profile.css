@@ -147,6 +147,7 @@
         -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
         animation-timing-function: linear;    
         transition-duration: 0.25s;
+        cursor: pointer;
     }
     .my-blogs .break-form {
         height: 5%;
