@@ -16,9 +16,12 @@ const BlogCard: FC<Props> = ({ blog }) => {
     email: "",
   });
   useEffect(() => {
-    GetUser(blog).then((res) => {
-      setUser(res.user);
-    });
+    async function fetch() {
+      await GetUser(blog).then((res) => {
+        setUser(res.user);
+      });
+    }
+    fetch();
     return (
       setUser({
         name: "",

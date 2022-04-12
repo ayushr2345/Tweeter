@@ -12,10 +12,13 @@ type Props = {
 const BlogCardLatest: FC<Props> = ({ blog }) => {
   const [userName, setUserName] = useState<String>("");
   useEffect(() => {
-    GetUser(blog).then((res) => {
-      setUserName(res.user.name);
-      // console.log(res.user.name);
-    });
+    async function fetch() {
+      await GetUser(blog).then((res) => {
+        setUserName(res.user.name);
+        // console.log(res.user.name);
+      });
+    }
+    fetch();
     return (
       setUserName("")
     )

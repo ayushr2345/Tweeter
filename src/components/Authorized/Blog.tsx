@@ -30,9 +30,12 @@ function Blog() {
   });
   useEffect(() => {
     console.log("here")
-    GetUser(blog).then((res) => {
+    async function fetch() {
+      await GetUser(blog).then((res) => {
       setUser(res.user);
     });
+  }
+  fetch();
     return (
       setUser({})
     )
