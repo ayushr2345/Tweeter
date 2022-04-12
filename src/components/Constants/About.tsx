@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <Image
-        src={process.env.PUBLIC_URL + "me.jpg"}
+        src={process.env.PUBLIC_URL + "/me.jpg"}
         roundedCircle
         className="about-image"
       />

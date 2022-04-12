@@ -79,12 +79,12 @@ function Signup() {
       const authenticated = await addUser(credentials);
       //console.log(authenticated);
       if (authenticated) {
-        navigate("/auth/dashboard");
+        navigate("/Tweeter/auth/dashboard/");
       } else {
         return alert("The email is already in use")
       }
     } else {
-      navigate("/");
+      navigate("/Tweeter/");
     }
   };
 
@@ -92,7 +92,7 @@ function Signup() {
     <div>
       <div className="container-image">
         <Image
-          src={process.env.PUBLIC_URL + "image.png"}
+          src={process.env.PUBLIC_URL + "/image.png"}
           roundedCircle
           className="img-fluid"
         />

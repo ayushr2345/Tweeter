@@ -116,7 +116,7 @@ function Profile() {
 
   const handleAccountDelete = async () => {
     handleCloseAccountDelete();
-    navigate("/");
+    navigate("/Tweeter");
     await DeleteALLBlogs(user);
     await DeleteUser(user);
   };
@@ -155,7 +155,7 @@ function Profile() {
         <div className="user-email">
           {updatedUser.email} <br />
           <div className="user-bio">{user.bio}</div>
-          <LinkContainer className="goto-dashboard" to="/auth/dashboard">
+          <LinkContainer className="goto-dashboard" to="/Tweeter/auth/dashboard/">
             <a>Go to Dashboard</a>
           </LinkContainer>
         </div>

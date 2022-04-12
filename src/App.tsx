@@ -26,35 +26,35 @@ function App() {
       <Header />
       <Routes>
         {/* Protected Route for Home */}
-        <Route path="/" element={<ProtectedHomeRoute />}>
+        <Route path="/Tweeter/" element={<ProtectedHomeRoute />}>
           <Route path="" element={<Home />} />
         </Route>
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="/Tweeter/about/" element={<About />} />
+        <Route path="/Tweeter/contact/" element={<Contact />} />
 
         {/* Protected Routes for Login */}
-        <Route path="login" element={<ProtectedLoginRoutes />}>
+        <Route path="/Tweeter/login/" element={<ProtectedLoginRoutes />}>
           <Route path="" element={<Login />} />
         </Route>
 
         {/* Protected Routes for Signup */}
-        <Route path="signup" element={<ProtectedSignupRoutes />}>
+        <Route path="/Tweeter/signup/" element={<ProtectedSignupRoutes />}>
           <Route path="" element={<Signup />} />
         </Route>
 
         {/* Protected Routes for dashboard */}
-        <Route path="auth/dashboard" element={<ProtectedRoutes />}>
+        <Route path="/Tweeter/auth/dashboard/" element={<ProtectedRoutes />}>
           <Route path="" element={<Dashboard />} />
         </Route>
         {/* Protected Routes for dashboard ends */}
 
         {/* Protected route for Blog */}
-        <Route path={"/auth/blog/:id"} element={<ProtectedBlogRoute />}>
+        <Route path={"/Tweeter/auth/blog/:id/"} element={<ProtectedBlogRoute />}>
           <Route path="" element={<Blog />} />
         </Route>
 
         {/* Protected route for Profile */}
-        <Route path={"/auth/profile"} element={<ProtectedProfileRoute />}>
+        <Route path={"/Tweeter/auth/profile/"} element={<ProtectedProfileRoute />}>
           <Route path="" element={<Profile />} />
         </Route>
       </Routes>

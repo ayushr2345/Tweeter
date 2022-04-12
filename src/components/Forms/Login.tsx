@@ -67,12 +67,12 @@ function Login() {
       console.log(authenticated);
 
       if (authenticated) {
-        navigate("/auth/dashboard");
+        navigate("/Tweeter/auth/dashboard/");
       } else {
         return alert("Wrong password or email")
       }
     } else {
-      navigate("/");
+      navigate("/Tweeter");
     }
   };
 
@@ -80,7 +80,7 @@ function Login() {
     <div>
       <div className="container-image">
         <Image
-          src={process.env.PUBLIC_URL + "image.png"}
+          src={process.env.PUBLIC_URL + "/image.png"}
           roundedCircle
           className="img-fluid"
         />

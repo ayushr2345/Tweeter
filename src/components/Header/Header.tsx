@@ -8,16 +8,16 @@ function Header() {
     <div>
       <Navbar className="custom-navbar" variant="dark">
         <Container>
-          <LinkContainer to="/">
+          <LinkContainer to="/Tweeter">
             <Navbar.Brand className="heading-navbar">Tweeter</Navbar.Brand>
           </LinkContainer>
 
           <Nav className="ms-auto">
-            <LinkContainer to="/about">
+            <LinkContainer to="/Tweeter/about/">
               <Nav.Link>About Us</Nav.Link>
             </LinkContainer>
 
-            <LinkContainer to="/contact">
+            <LinkContainer to="/Tweeter/contact/">
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
           </Nav>

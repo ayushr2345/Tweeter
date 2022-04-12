@@ -10,7 +10,7 @@ function Home() {
     <div className="main-container">
       <div className="container-image">
         <Image
-          src={process.env.PUBLIC_URL + "image.png"}
+          src={process.env.PUBLIC_URL + "/image.png"}
           roundedCircle
           className="img-fluid"
         />
@@ -21,13 +21,13 @@ function Home() {
       <Pitch />
 
       <div className="buttons-home">
-        <LinkContainer to="/login">
+        <LinkContainer to="/Tweeter/login/">
           <Button className="login-button" variant="primary" size="lg">
             Log In
           </Button>
         </LinkContainer>
 
-        <LinkContainer to="/signup">
+        <LinkContainer to="/Tweeter/signup/">
           <Button className="signup-button" variant="outline-dark" size="lg">
             Sign Up
           </Button>
