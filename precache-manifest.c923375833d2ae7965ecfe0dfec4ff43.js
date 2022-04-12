@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Tweeter/static/css/2.76f79a34.chunk.css"
   },
   {
-    "revision": "1570f2d0ec2a576c9c660203d41f2d73",
+    "revision": "9307e5e0b8743439a59bc3d6fa63a1c4",
     "url": "/Tweeter/index.html"
   }
 ];
