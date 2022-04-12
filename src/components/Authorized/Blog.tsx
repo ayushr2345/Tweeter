@@ -38,10 +38,11 @@ function Blog() {
           // console.log(blog);
         });
       }
-      await GetUser(blog).then((res) => {
-        setUser(res.user);
-      });
-      
+      if (blog) {
+        await GetUser(blog).then((res) => {
+          setUser(res.user);
+        });
+      }
     }
     fetch();
     return (
