@@ -29,9 +29,10 @@ function Blog() {
     email: "",
   });
   useEffect(() => {
-    console.log("here")
+    
     async function fetch() {
-      if (blog.title.length === 0) {
+      if (id && blog.title.length === 0) {
+        console.log("here")
         await GetABlog(id).then((res) => {
             //   console.log(res);
           setBlog(res[0]);
