@@ -36,7 +36,7 @@ function Blog() {
     return (
       setUser({})
     )
-  }, [blog]);
+  }, []);
 
   useEffect(() => {
     console.log("here2")

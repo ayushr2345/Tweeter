@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Tweeter/static/js/runtime~main.e8d7bb0f.js"
   },
   {
-    "revision": "cf4c856d56ab7da4b751",
-    "url": "/Tweeter/static/js/main.3ad14844.chunk.js"
+    "revision": "2ad7525888f540416d81",
+    "url": "/Tweeter/static/js/main.39e6d1ba.chunk.js"
   },
   {
     "revision": "3ec6ce584da2d558e2cb",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Tweeter/static/js/2.aee5fc53.chunk.js"
   },
   {
-    "revision": "cf4c856d56ab7da4b751",
+    "revision": "2ad7525888f540416d81",
     "url": "/Tweeter/static/css/main.73603cbb.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Tweeter/static/css/2.76f79a34.chunk.css"
   },
   {
-    "revision": "6bd8abea59c8db07c827962a4926bdcd",
+    "revision": "8fd7dbf6ac3287837ad51f213a09eaab",
     "url": "/Tweeter/index.html"
   }
 ];
