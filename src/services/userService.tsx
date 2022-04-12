@@ -68,6 +68,7 @@ export const MatchAUserSession = async () => {
 
 // GET A USER TO DISPLAY IN THE BLOG CARD
 export const GetUser = async (blog: Partial<IBlog>) => {
+  console.log(blog)
   try {
     const response = await axios.post(USERS_API_URL + "/auth/get-name", { data: { blog: blog } });
     return response.data;
