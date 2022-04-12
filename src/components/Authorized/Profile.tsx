@@ -58,8 +58,8 @@ function Profile() {
     }
   }, [newUser]);
 
-  const updateBlogList = () => {
-    GetAllBlogs().then((e) => {
+  const updateBlogList = async () => {
+    await GetAllBlogs().then((e) => {
       setBlogList(e);
     });
   };

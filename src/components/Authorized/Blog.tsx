@@ -29,6 +29,7 @@ function Blog() {
     email: "",
   });
   useEffect(() => {
+    console.log("here")
     GetUser(blog).then((res) => {
       setUser(res.user);
     });
@@ -38,6 +39,7 @@ function Blog() {
   }, [blog]);
 
   useEffect(() => {
+    console.log("here2")
     if (id) {
       GetABlog(id).then((res) => {
         //   console.log(res);
