@@ -53,7 +53,7 @@ function Blog() {
         datePublished: date,
       })
     )
-  }, [user]);
+  }, []);
 
   // useEffect(() => {
   //   console.log("here2")
