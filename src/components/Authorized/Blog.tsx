@@ -31,7 +31,7 @@ function Blog() {
   useEffect(() => {
     
     async function fetch() {
-      if (id && blog.title.length === 0) {
+      if (id && blog.title.length == 0) {
         await GetABlog(id).then((res) => {
           console.log(res[0].title.length);
           setBlog(res[0]);
