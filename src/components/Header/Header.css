@@ -1,0 +1,13 @@
+.custom-navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+    background-color: black;  
+}
+
+.heading-navbar {
+    font-size: 2rem;
+}
+
+.ms-auto {
+    font-size: 1.25rem;
+}

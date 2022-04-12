@@ -1,0 +1,218 @@
+.profile {
+    width: 80%;
+    margin: auto;
+    margin-top: 7.5%;
+    border: 10px double rgb(122, 112, 112);
+}
+.my-blogs {
+    border: 2px solid rgb(148, 143, 143);
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 10%;
+    margin-bottom: 35%;
+}
+.blog-card-profile {
+    text-align: left;
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.my-blogs .break-form {
+    height: 5%;
+    font-size: larger;
+    font-weight: 600;
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.25%;
+    margin-bottom: 3%;
+}
+.delete-icon {
+    color: rgb(170, 56, 56);
+    display: inline-block;
+    margin-left: 87.5%;
+    margin-top: -22.5%;
+}
+.edit-icon {
+    display: inline-block;
+    margin-left: 77.5%;
+    margin-top: 0%;
+}
+.delete-profile-button {
+    margin: auto;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+.delete-icon {
+    color: rgb(170, 56, 56);
+    display: inline-block;
+    margin-left: 90%;
+    margin-top: -20%;
+    transform: scale(1.1);
+}
+.edit-icon {
+    display: inline-block;
+    margin-left: 80%;
+    margin-top: 5%;
+    transform: scale(1.1);
+}
+.goto-dashboard {
+    font-weight: 400;
+    font-size: medium;
+    margin: auto;
+    margin-top: 20%;
+    color: rgb(88, 88, 88);
+}
+.delete-profile-button {
+    margin: auto;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    width: 60%;
+}
+.edit-profile-button {
+    width: 60%;
+}
+.hidden-form-image {
+    display: none;
+}
+.edit-profile-image {
+    cursor: pointer;
+    margin: auto;
+    margin-top: 1000%;
+    margin-left: -300%;
+    width: 1000%;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 20%;
+}
+.profile-image {
+    margin: auto;
+    border-radius: 50%;
+}
+.profile-image-profile {
+    border-radius: 50%;
+}
+.image-section {
+    width: 100%;
+    margin: auto;
+}
+.image-section-profile {
+    width: 100%;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-left: 5%;
+}
+@media only screen and (min-width: 1280px) {
+    .profile {
+        display: inline-block;
+        width: 17.5%;
+        margin: auto;
+        top: 23%;
+        left: 16%;
+        border: 10px double rgb(122, 112, 112);
+        position: absolute;
+    }
+    .user-bio {
+        color: black;
+        font-style: italic;
+        font-weight: 600;
+        width: 90%;
+        margin: auto;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        border: 1px dashed #58585880;
+        border-radius: 5%;
+        padding: 2.5%;
+    }
+    .my-blogs {
+        border: 2px solid rgb(148, 143, 143);
+        width: 57.5%;
+        margin-left: 37.5%;
+        margin-top: 5%;
+        padding: 2%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 10%;
+    }
+    .blog-card-profile {
+        text-align: left;
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .blog-card-profile:hover {
+        transform: scale(1.05);
+        -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+        animation-timing-function: linear;    
+        transition-duration: 0.25s;
+    }
+    .my-blogs .break-form {
+        height: 5%;
+        font-size: larger;
+        font-weight: 600;
+        border: 2px solid black;
+        width: 90%;
+        margin: auto;
+        margin-top: 1.25%;
+        margin-bottom: 3%;
+    }
+    .delete-icon {
+        color: rgb(170, 56, 56);
+        display: inline-block;
+        margin-left: 97.5%;
+        margin-top: -5.5%;
+        transform: scale(1.1);
+    }
+    .edit-icon {
+        display: inline-block;
+        margin-left: 95%;
+        margin-top: 0%;
+        transform: scale(1.1);
+    }
+    .edit-icon:hover, .delete-icon:hover {
+        transform: scale(1.5);
+        -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+        animation-timing-function: linear;    
+        transition-duration: 5s;
+    }
+    .goto-dashboard {
+        font-weight: 400;
+        font-size: medium;
+        margin: auto;
+        margin-top: 20%;
+        color: rgb(88, 88, 88);
+    }
+    .delete-profile-button {
+        margin: auto;
+        margin-bottom: 2.5%;
+        margin-top: 2.5%;
+        width: 60%;
+    }
+    .edit-profile-button {
+        width: 60%;
+    }
+    .hidden-form-image {
+        display: none;
+    }
+    .edit-profile-image {
+        cursor: pointer;
+        margin: auto;
+        margin-top: 1000%;
+        margin-left: -300%;
+        width: 1000%;
+        border: 2px solid rgb(119, 119, 119);
+        border-radius: 20%;
+    }
+    .profile-image {
+        margin: auto;
+        border-radius: 50%;
+        margin-left: -15%;
+    }
+    .image-section {
+        margin: auto;
+        margin-top: 2.5%;
+        margin-left: 7.5%;
+    }
+}

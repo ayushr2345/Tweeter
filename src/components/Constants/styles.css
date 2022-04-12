@@ -1,0 +1,100 @@
+.about-section {
+    font-size: x-large; 
+    width: 80%;
+    border: 2px dashed rgb(207, 207, 207);
+    margin: auto;
+    padding: 2.5%;
+    margin-bottom: 40%;
+    margin-top: 15%;
+}
+.about-links {
+    margin-left: 2.5%;
+    text-align: left;
+    font-size: large;
+    font-weight: 400; 
+}
+.about-links a{
+    text-decoration: underline;
+}
+.about-social-icons {
+    margin-right: 0;
+    text-align: left;
+    margin-left: 4.5%;
+}
+.social-icon {
+    transform: scale(1.15);
+    margin-right: 2.5%;
+}
+.about-image {
+    transform: scale(1.5);
+    width: 30%;
+    margin-top: 10%;
+}
+
+.contact-section {
+    font-size: x-large; 
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+    border: 3px solid rgb(207, 207, 207);
+    padding: 2.5%;
+}
+@media only screen and (min-width: 1280px) {
+    .about-section {
+        display: inline-block;
+        position: absolute;
+        font-size: x-large; 
+        width: 40%;
+        border: 2px dashed rgb(207, 207, 207);
+        left: 40%;
+        top: -10%;
+        padding: 2.5%;
+    }
+    .about-links {
+        margin-left: 2.5%;
+        text-align: left;
+        font-size: large;
+        font-weight: 400; 
+    }
+    .about-links a{
+        text-decoration: underline;
+    }
+    .about-links a:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+    .about-social-icons {
+        display: inline-block;
+        position: absolute;
+        left: 80%;
+        top: 77.5%;
+        width: 20%;
+    }
+    .social-icon {
+        transform: scale(2);
+        margin-right: 20%;
+    }
+    .social-icon:hover {
+        transform: scale(2.25);
+        -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+        animation-timing-function: linear;    
+        transition-duration: 0.25s;
+    }
+    .about-image {
+        display: inline-block;
+        position: absolute;
+        transform: scale(0.5);
+        width: 30%;
+        left: 8%;
+        top: -12.5%;
+    }
+    .contact-section {
+        text-align: left;
+        font-size: x-large; 
+        width: 40%;
+        border: 3px solid rgb(207, 207, 207);
+        padding: 2.5%;
+        margin-left: 16%;
+        margin-top: 5%;
+    }
+}
