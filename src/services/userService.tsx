@@ -55,7 +55,6 @@ export const logOutUser = async () => {
 export const MatchAUserSession = async () => {
   try {
     const response = await axios.get(USERS_API_URL + "/auth/session");
-    console.log(response);
     // if (!response.data.user) {
     //   // console.log(response)
     //   logOutUser();
@@ -70,9 +69,7 @@ export const MatchAUserSession = async () => {
 // GET A USER TO DISPLAY IN THE BLOG CARD
 export const GetUser = async (blog: Partial<IBlog>) => {
   try {
-    const response = await axios.post(USERS_API_URL + "/auth/get-name", blog, {
-      withCredentials: true,
-    });
+    const response = await axios.get(USERS_API_URL + "/auth/get-name", { data: { blog: blog } });
     return response.data;
   } catch (err) {
     console.log(USERS_API_URL);
