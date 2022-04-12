@@ -35,7 +35,7 @@ function ProtectedRoutes() {
   }, []);
 
   if (isLoading) {
-    return <>Loading</>;
+    return <>Loading...</>;
   } else {
     if (isLoggedIn) {
       return <Outlet context={{ user }} />;
