@@ -46,6 +46,7 @@ const BlogCard: FC<Props> = ({ blog }) => {
                   height="128"
                 />
               )}
+              <pre>{user.bio}</pre>
             </div>
             <Card.Text className="article-text">
               {blog.article.slice(0, 300) + "..."}

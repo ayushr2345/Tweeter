@@ -115,10 +115,11 @@ function Profile() {
   const handleShowAccountEdit = () => setShowAccountEdit(true);
 
   const handleAccountDelete = async () => {
-    handleCloseAccountDelete();
-    navigate("/");
+    await handleCloseAccountDelete();
+    
     await DeleteALLBlogs(user);
     await DeleteUser(user);
+    navigate("/");
   };
 
   return (
