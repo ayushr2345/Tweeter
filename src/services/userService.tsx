@@ -70,7 +70,7 @@ export const MatchAUserSession = async () => {
 export const GetUser = async (blog: Partial<IBlog>) => {
   console.log(blog)
   try {
-    const response = await axios.post(USERS_API_URL + "/auth/get-name", { data: { blog: blog } });
+    const response = await axios.post(USERS_API_URL + "/auth/get-name", { data: { blog: blog } }, { withCredentials: true });
     return response.data;
   } catch (err) {
     console.log(USERS_API_URL);
