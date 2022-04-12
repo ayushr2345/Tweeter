@@ -32,25 +32,19 @@ function Blog() {
     console.log("here")
     async function fetch() {
       await GetUser(blog).then((res) => {
-      setUser(res.user);
-    });
-  }
-  fetch();
-    return (
-      setUser({})
-    )
-  }, []);
-
-  useEffect(() => {
-    console.log("here2")
-    if (id) {
-      GetABlog(id).then((res) => {
-        //   console.log(res);
-        setBlog(res[0]);
-        // console.log(blog);
+        setUser(res.user);
       });
+      if (id) {
+        await GetABlog(id).then((res) => {
+            //   console.log(res);
+          setBlog(res[0]);
+          // console.log(blog);
+        });
+      }
     }
+    fetch();
     return (
+      setUser({}),
       setBlog({
         title: "",
         article: "",
@@ -60,6 +54,26 @@ function Blog() {
       })
     )
   }, []);
+
+  // useEffect(() => {
+  //   console.log("here2")
+  //   if (id) {
+  //     GetABlog(id).then((res) => {
+  //       //   console.log(res);
+  //       setBlog(res[0]);
+  //       // console.log(blog);
+  //     });
+  //   }
+  //   return (
+  //     setBlog({
+  //       title: "",
+  //       article: "",
+  //       _id: "",
+  //       authorId: "",
+  //       datePublished: date,
+  //     })
+  //   )
+  // }, []);
 
   return (
     <div>
