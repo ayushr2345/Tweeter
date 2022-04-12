@@ -85,8 +85,8 @@ const BlogCardProfile: FC<Props> = ({ blog, updateBlogList }) => {
   };
 
   return (
-    <a href={"/auth/blog/" + blog._id}>
-      <Card className="blog-card-profile">
+    <LinkContainer to={"/auth/blog/" + blog._id} >
+    <Card className="blog-card-profile">
         <Card.Body>
           <Card.Title>{blog.title}</Card.Title>
 
@@ -176,7 +176,7 @@ const BlogCardProfile: FC<Props> = ({ blog, updateBlogList }) => {
           </Modal>
         </Card.Body>
       </Card>
-    </a>
+    </LinkContainer>
   );
 };
 

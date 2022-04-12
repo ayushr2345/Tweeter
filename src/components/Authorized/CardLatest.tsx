@@ -22,8 +22,8 @@ const BlogCardLatest: FC<Props> = ({ blog }) => {
   }, []);
 
   return (
-    <a href={"/auth/blog/" + blog._id}>
-      <Card className="blog-card-latest">
+    <LinkContainer to={"/auth/blog/" + blog._id} >
+    <Card className="blog-card-latest">
         <Card.Body>
           <Card.Title className="latest">{blog.title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted latest">
@@ -34,7 +34,7 @@ const BlogCardLatest: FC<Props> = ({ blog }) => {
           </Card.Subtitle>
         </Card.Body>
       </Card>
-    </a>
+    </LinkContainer>
   );
 };
 
