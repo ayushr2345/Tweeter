@@ -27,7 +27,7 @@ function ProtectedSignupRoutes() {
     if (!isLoggedIn) {
       return <Outlet />;
     } else {
-      return <Navigate to="/auth/dashboard/" />;
+      return <Navigate to="/auth/dashboard" />;
     }
   }
 }

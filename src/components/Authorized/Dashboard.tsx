@@ -176,7 +176,7 @@ function Dashboard() {
           {user.email}
           <br />
           <div className="user-bio">{user.bio}</div>
-          <LinkContainer className="goto-profile" to="/auth/profile/">
+          <LinkContainer className="goto-profile" to="/auth/profile">
             <a>Go to Profile</a>
           </LinkContainer>
         </div>

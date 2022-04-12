@@ -34,7 +34,7 @@ function ProtectedBlogRoute() {
     if (isLoggedIn) {
       return <Outlet context={{ user }} />;
     } else {
-      return <Navigate to="/login/" />;
+      return <Navigate to="/login" />;
     }
   }
 }

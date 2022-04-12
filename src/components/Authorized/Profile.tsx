@@ -156,7 +156,7 @@ function Profile() {
         <div className="user-email">
           {updatedUser.email} <br />
           <div className="user-bio">{user.bio}</div>
-          <LinkContainer className="goto-dashboard" to="/auth/dashboard/">
+          <LinkContainer className="goto-dashboard" to="/auth/dashboard">
             <a>Go to Dashboard</a>
           </LinkContainer>
         </div>

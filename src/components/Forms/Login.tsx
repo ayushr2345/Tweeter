@@ -67,7 +67,7 @@ function Login() {
       console.log(authenticated);
 
       if (authenticated) {
-        navigate("/auth/dashboard/");
+        navigate("/auth/dashboard");
       } else {
         return alert("Wrong password or email")
       }

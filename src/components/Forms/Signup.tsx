@@ -79,7 +79,7 @@ function Signup() {
       const authenticated = await addUser(credentials);
       //console.log(authenticated);
       if (authenticated) {
-        navigate("/auth/dashboard/");
+        navigate("/auth/dashboard");
       } else {
         return alert("The email is already in use")
       }

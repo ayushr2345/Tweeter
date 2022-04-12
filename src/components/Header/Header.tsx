@@ -13,11 +13,11 @@ function Header() {
           </LinkContainer>
 
           <Nav className="ms-auto">
-            <LinkContainer to="/about/">
+            <LinkContainer to="/about">
               <Nav.Link>About Us</Nav.Link>
             </LinkContainer>
 
-            <LinkContainer to="/contact/">
+            <LinkContainer to="/contact">
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
           </Nav>
