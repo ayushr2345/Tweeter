@@ -35,7 +35,7 @@ function Blog() {
         await GetABlog(id).then((res) => {
           console.log(blog.title.length);
           setBlog(res[0]);
-          // console.log(blog);
+          console.log("here");
         });
       }
       if (blog.title.length > 0) {
