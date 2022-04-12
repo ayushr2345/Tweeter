@@ -31,9 +31,6 @@ function Blog() {
   useEffect(() => {
     console.log("here")
     async function fetch() {
-      await GetUser(blog).then((res) => {
-        setUser(res.user);
-      });
       if (id) {
         await GetABlog(id).then((res) => {
             //   console.log(res);
@@ -41,6 +38,10 @@ function Blog() {
           // console.log(blog);
         });
       }
+      await GetUser(blog).then((res) => {
+        setUser(res.user);
+      });
+      
     }
     fetch();
     return (
