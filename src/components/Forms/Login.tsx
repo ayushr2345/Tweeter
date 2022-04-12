@@ -67,12 +67,12 @@ function Login() {
       console.log(authenticated);
 
       if (authenticated) {
-        navigate("/Tweeter/auth/dashboard/");
+        navigate("/auth/dashboard/");
       } else {
         return alert("Wrong password or email")
       }
     } else {
-      navigate("/Tweeter");
+      navigate("/");
     }
   };
 

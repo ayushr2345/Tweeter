@@ -79,12 +79,12 @@ function Signup() {
       const authenticated = await addUser(credentials);
       //console.log(authenticated);
       if (authenticated) {
-        navigate("/Tweeter/auth/dashboard/");
+        navigate("/auth/dashboard/");
       } else {
         return alert("The email is already in use")
       }
     } else {
-      navigate("/Tweeter/");
+      navigate("/");
     }
   };
 

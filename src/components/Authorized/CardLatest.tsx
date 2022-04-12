@@ -22,7 +22,7 @@ const BlogCardLatest: FC<Props> = ({ blog }) => {
   }, []);
 
   return (
-    <a href={"/Tweeter/auth/blog/" + blog._id}>
+    <a href={"/auth/blog/" + blog._id}>
       <Card className="blog-card-latest">
         <Card.Body>
           <Card.Title className="latest">{blog.title}</Card.Title>

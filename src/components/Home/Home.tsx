@@ -21,13 +21,13 @@ function Home() {
       <Pitch />
 
       <div className="buttons-home">
-        <LinkContainer to="/Tweeter/login/">
+        <LinkContainer to="/login/">
           <Button className="login-button" variant="primary" size="lg">
             Log In
           </Button>
         </LinkContainer>
 
-        <LinkContainer to="/Tweeter/signup/">
+        <LinkContainer to="/signup/">
           <Button className="signup-button" variant="outline-dark" size="lg">
             Sign Up
           </Button>

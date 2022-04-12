@@ -47,7 +47,7 @@ function ProtectedProfileRoute() {
     if (isLoggedIn) {
       return <Outlet context={{ user, getUpdatedUser }} />;
     } else {
-      return <Navigate to="/Tweeter/login/" />;
+      return <Navigate to="/login/" />;
     }
   }
 }

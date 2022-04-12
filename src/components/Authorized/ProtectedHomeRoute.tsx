@@ -27,7 +27,7 @@ function ProtectedHomeRoute() {
     if (!isLoggedIn) {
       return <Outlet />;
     } else {
-      return <Navigate to="/Tweeter/auth/dashboard/" />;
+      return <Navigate to="/auth/dashboard/" />;
     }
   }
 }
