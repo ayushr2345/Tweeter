@@ -85,98 +85,101 @@ const BlogCardProfile: FC<Props> = ({ blog, updateBlogList }) => {
   };
 
   return (
-    <LinkContainer to={"/auth/blog/" + blog._id} >
-    <Card className="blog-card-profile">
-        <Card.Body>
-          <Card.Title>{blog.title}</Card.Title>
+    <div>
+      <LinkContainer to={"/auth/blog/" + blog._id} >
+        <Card className="blog-card-profile">
+          <Card.Body>
+            <Card.Title>{blog.title}</Card.Title>
 
-          <Card.Subtitle className="mb-2 text-muted">{userName}</Card.Subtitle>
-          <Card.Subtitle className="mb-2 text-muted card-date">
-            {blog.datePublished.toString().slice(0, 10)}
-          </Card.Subtitle>
-          <Card.Text className="article-text">
-            {blog.article.slice(0, 300) + "..."}
-          </Card.Text>
-          <EditIcon className="edit-icon" onClick={handleShow} />
-          <DeleteIcon className="delete-icon" onClick={handleShowDelete} />
+            <Card.Subtitle className="mb-2 text-muted">{userName}</Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted card-date">
+              {blog.datePublished.toString().slice(0, 10)}
+            </Card.Subtitle>
+            <Card.Text className="article-text">
+              {blog.article.slice(0, 300) + "..."}
+            </Card.Text>
+            <EditIcon className="edit-icon" onClick={handleShow} />
+            <DeleteIcon className="delete-icon" onClick={handleShowDelete} />
 
-          {/* modal to edit the blog */}
-          <Modal show={show} onHide={handleClose}>
-            <Modal.Header closeButton>
-              <Modal.Title>Edit Blog</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-              <Form>
-                <Form.Group
-                  className="mb-3"
-                  controlId="exampleForm.ControlInput1"
-                >
-                  <Form.Label>Title</Form.Label>
-                  <Form.Control
-                    type="text"
-                    value={updatedBlog.title}
-                    autoFocus
-                    onChange={(event) => {
-                      const title = event.currentTarget.value;
-                      setUpdatedBlog({
-                        ...updatedBlog,
-                        title: title,
-                      });
-                    }}
-                  />
-                </Form.Group>
-                <Form.Group
-                  className="mb-3"
-                  controlId="exampleForm.ControlTextarea1"
-                >
-                  <Form.Label>Blog</Form.Label>
-                  <Form.Control
-                    as="textarea"
-                    rows={7}
-                    value={updatedBlog.article}
-                    onChange={(event) => {
-                      const article = event.currentTarget.value;
-                      setUpdatedBlog({
-                        ...updatedBlog,
-                        article: article,
-                      });
-                    }}
-                  />
-                </Form.Group>
-              </Form>
-            </Modal.Body>
-            <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
-                Close
-              </Button>
-              <Button variant="primary" onClick={handleEdit}>
-                Save Changes
-              </Button>
-            </Modal.Footer>
-          </Modal>
 
-          {/* Modal to confirm Deletion */}
-          <Modal show={showDelete} onHide={handleCloseDelete}>
-            <Modal.Header closeButton>
-              <Modal.Title>Deleting Blog</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-              <Alert variant="danger">
-                Are you sure you want to delete this blog?
-              </Alert>
-            </Modal.Body>
-            <Modal.Footer>
-              <Button variant="primary" onClick={handleCloseDelete}>
-                No
-              </Button>
-              <Button variant="danger" onClick={handleDeleteBlog}>
-                Delete
-              </Button>
-            </Modal.Footer>
-          </Modal>
-        </Card.Body>
-      </Card>
-    </LinkContainer>
+          </Card.Body>
+        </Card>
+      </LinkContainer>
+      {/* modal to edit the blog */}
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Edit Blog</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlInput1"
+            >
+              <Form.Label>Title</Form.Label>
+              <Form.Control
+                type="text"
+                value={updatedBlog.title}
+                autoFocus
+                onChange={(event) => {
+                  const title = event.currentTarget.value;
+                  setUpdatedBlog({
+                    ...updatedBlog,
+                    title: title,
+                  });
+                }}
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Blog</Form.Label>
+              <Form.Control
+                as="textarea"
+                rows={7}
+                value={updatedBlog.article}
+                onChange={(event) => {
+                  const article = event.currentTarget.value;
+                  setUpdatedBlog({
+                    ...updatedBlog,
+                    article: article,
+                  });
+                }}
+              />
+            </Form.Group>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleEdit}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      {/* Modal to confirm Deletion */}
+      <Modal show={showDelete} onHide={handleCloseDelete}>
+        <Modal.Header closeButton>
+          <Modal.Title>Deleting Blog</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Alert variant="danger">
+            Are you sure you want to delete this blog?
+          </Alert>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleCloseDelete}>
+            No
+          </Button>
+          <Button variant="danger" onClick={handleDeleteBlog}>
+            Delete
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </div>
   );
 };
 
