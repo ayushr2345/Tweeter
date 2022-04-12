@@ -38,7 +38,7 @@ function Blog() {
           // console.log(blog);
         });
       }
-      if (blog) {
+      if (blog.title.length > 0) {
         await GetUser(blog).then((res) => {
           setUser(res.user);
         });
