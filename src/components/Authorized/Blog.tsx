@@ -33,7 +33,7 @@ function Blog() {
     async function fetch() {
       if (id && (blog.title.length == 0)) {
         await GetABlog(id).then((res) => {
-          console.log(res[0].title.length);
+          console.log(blog.title.length);
           setBlog(res[0]);
           // console.log(blog);
         });
