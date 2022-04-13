@@ -175,7 +175,7 @@ function Dashboard() {
         <div className="user-email">
           {user.email}
           <br />
-          <div className="user-bio">{user.bio}</div>
+          <div className="user-bio" style={{ whiteSpace: "pre-wrap", }}>{user.bio}</div>
           <LinkContainer className="goto-profile" to="/auth/profile">
             <a>Go to Profile</a>
           </LinkContainer>

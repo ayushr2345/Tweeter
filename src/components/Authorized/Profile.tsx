@@ -155,7 +155,7 @@ function Profile() {
         <br />
         <div className="user-email">
           {updatedUser.email} <br />
-          <div className="user-bio">{user.bio}</div>
+          <div className="user-bio" style={{ whiteSpace: "pre-wrap", }}>{user.bio}</div>
           <LinkContainer className="goto-dashboard" to="/auth/dashboard">
             <a>Go to Dashboard</a>
           </LinkContainer>

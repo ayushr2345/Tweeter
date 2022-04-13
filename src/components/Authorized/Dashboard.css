@@ -326,6 +326,12 @@ a:hover {
         margin-left: 79%;
         top: 7.5%;
     }
+    .user-bio-blog {
+        display: inline-block;
+        position: absolute;
+        margin-left: 79%;
+        top: 10%;
+    }
     .article-text{
         text-align: left;
         width: 80%;
