@@ -84,6 +84,7 @@ function Blog() {
               />
             )}
           </div>
+          <div style={{ whiteSpace: "pre-wrap", }}>{user.bio}</div>
           <Card.Text className="article-text" style={{ whiteSpace: "pre-wrap", }}>{blog.article}</Card.Text>
 
         </Card.Body>
