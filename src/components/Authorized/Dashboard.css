@@ -147,6 +147,20 @@ a:hover {
     text-align: center;
     
 }
+.user-bio-blog {
+    display: inline-block;
+    position: absolute;
+    margin-left: 79%;
+    top: 10%;
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+    width: 90%;
+    margin: auto;
+    border: 1px dashed #58585880;
+    border-radius: 5%;
+    padding: 2.5%;
+}
 @media only screen and (min-width: 1280px) {
     a {
         text-decoration: none;
@@ -329,8 +343,16 @@ a:hover {
     .user-bio-blog {
         display: inline-block;
         position: absolute;
-        margin-left: 79%;
+        left: 79%;
         top: 10%;
+        color: black;
+        font-style: italic;
+        font-weight: 600;
+        width: 90%;
+        margin: auto;
+        border: 1px dashed #58585880;
+        border-radius: 5%;
+        padding: 2.5%;
     }
     .article-text{
         text-align: left;
