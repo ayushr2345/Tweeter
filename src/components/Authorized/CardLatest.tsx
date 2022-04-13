@@ -13,10 +13,12 @@ const BlogCardLatest: FC<Props> = ({ blog }) => {
   const [userName, setUserName] = useState<String>("");
   useEffect(() => {
     async function fetch() {
-      await GetUser(blog).then((res) => {
-        setUserName(res.user.name);
-        // console.log(res.user.name);
-      });
+      if(blog) {
+          await GetUser(blog).then((res) => {
+          setUserName(res.user.name);
+          // console.log(res.user.name);
+        });
+      }
     }
     fetch();
     return (
