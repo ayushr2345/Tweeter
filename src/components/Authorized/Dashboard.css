@@ -147,7 +147,7 @@ a:hover {
     text-align: center;
     
 }
-.user-bio-blog {
+/* .user-bio-blog {
     display: inline-block;
     position: absolute;
     margin-left: 79%;
@@ -160,7 +160,7 @@ a:hover {
     border: 1px dashed #58585880;
     border-radius: 5%;
     padding: 2.5%;
-}
+} */
 @media only screen and (min-width: 1280px) {
     a {
         text-decoration: none;
@@ -321,8 +321,8 @@ a:hover {
     .card-date {
         display: inline-block;
         position: absolute;
-        right: 3%;
-        bottom: 1%;
+        right: 6.5%;
+        bottom: -3%;
     }
     .article-text {
         width: 85%;
@@ -337,19 +337,19 @@ a:hover {
         display: inline-block;
         position: absolute;
         border-radius: 50%;
-        margin-left: 75%;
+        margin-left: 76.5%;
         top: 7.5%;
     }
     .user-bio-blog {
         display: inline-block;
         position: absolute;
-        left: 82.5%;
-        top: 17.5%;
+        margin-left: 81.5%;
+        margin-top: 7.5%;
+        margin-bottom: 7.5%;
         color: black;
         font-style: italic;
         font-weight: 600;
         width: 15%;
-        margin: auto;
         border: 1px dashed #58585880;
         border-radius: 2%;
         padding: 1%;
