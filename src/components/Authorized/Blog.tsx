@@ -37,15 +37,9 @@ function Blog() {
           setBlog(res[0]);
         });
       }
-      if (blog.title.length > 0) {
-        await GetUser(blog).then((res) => {
-          setUser(res.user);
-        });
-      }
     }
     fetch();
     return (
-      setUser({}),
       setBlog({
         title: "",
         article: "",
@@ -54,27 +48,22 @@ function Blog() {
         datePublished: date,
       })
     )
-  }, [user]);
+  }, []);
 
-  // useEffect(() => {
-  //   console.log("here2")
-  //   if (id) {
-  //     GetABlog(id).then((res) => {
-  //       //   console.log(res);
-  //       setBlog(res[0]);
-  //       // console.log(blog);
-  //     });
-  //   }
-  //   return (
-  //     setBlog({
-  //       title: "",
-  //       article: "",
-  //       _id: "",
-  //       authorId: "",
-  //       datePublished: date,
-  //     })
-  //   )
-  // }, []);
+  useEffect(() => {
+    async function fetch() {
+      if (blog.title.length > 0) {
+        await   GetUser(blog).then((res) => {
+          setUser(res.user);
+        });
+      }
+    }
+    fetch();
+    
+    return (
+      setUser({})
+    )
+  }, [blog]);
 
   return (
     <div>
