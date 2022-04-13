@@ -1,7 +1,7 @@
 {
-  "main.css": "/Tweeter/static/css/main.73603cbb.chunk.css",
-  "main.js": "/Tweeter/static/js/main.b77b63a4.chunk.js",
-  "main.js.map": "/Tweeter/static/js/main.b77b63a4.chunk.js.map",
+  "main.css": "/Tweeter/static/css/main.7b3c8f78.chunk.css",
+  "main.js": "/Tweeter/static/js/main.a06519dc.chunk.js",
+  "main.js.map": "/Tweeter/static/js/main.a06519dc.chunk.js.map",
   "runtime~main.js": "/Tweeter/static/js/runtime~main.e8d7bb0f.js",
   "runtime~main.js.map": "/Tweeter/static/js/runtime~main.e8d7bb0f.js.map",
   "static/css/2.76f79a34.chunk.css": "/Tweeter/static/css/2.76f79a34.chunk.css",
@@ -10,8 +10,8 @@
   "static/js/3.66b94e81.chunk.js": "/Tweeter/static/js/3.66b94e81.chunk.js",
   "static/js/3.66b94e81.chunk.js.map": "/Tweeter/static/js/3.66b94e81.chunk.js.map",
   "index.html": "/Tweeter/index.html",
-  "precache-manifest.14c4b82b97c5d02509734d7ce388f518.js": "/Tweeter/precache-manifest.14c4b82b97c5d02509734d7ce388f518.js",
+  "precache-manifest.a295453947d91a485dbd792693771393.js": "/Tweeter/precache-manifest.a295453947d91a485dbd792693771393.js",
   "service-worker.js": "/Tweeter/service-worker.js",
   "static/css/2.76f79a34.chunk.css.map": "/Tweeter/static/css/2.76f79a34.chunk.css.map",
-  "static/css/main.73603cbb.chunk.css.map": "/Tweeter/static/css/main.73603cbb.chunk.css.map"
+  "static/css/main.7b3c8f78.chunk.css.map": "/Tweeter/static/css/main.7b3c8f78.chunk.css.map"
 }
