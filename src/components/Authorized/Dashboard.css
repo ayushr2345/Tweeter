@@ -193,8 +193,8 @@ a:hover {
         margin: auto;
         margin-top: 3%;
         margin-left: 16%;   
-        margin-bottom: 10%;     
-        padding-bottom: 5%;
+        margin-bottom: 3%;     
+        padding-bottom: 8%;
     }
     .blog-card-latest {
         text-align: left;
@@ -322,7 +322,7 @@ a:hover {
         display: inline-block;
         position: absolute;
         right: 6.5%;
-        bottom: -3%;
+        bottom: 1%;
     }
     .article-text {
         width: 85%;
