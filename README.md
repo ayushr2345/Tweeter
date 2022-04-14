@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+# Tweeter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo contains the frontend of the [Tweeter](https://ayushr2345.github.io/Tweeter) web app. The main repo can be visited [here](https://github.com/ayushr2345/blog-app)
 
-## Available Scripts
+## Frontend
 
-In the project directory, you can run:
+The frontend uses ReactJS with bootstrap and MUI icons in it. The frontend allows users to perform CRUD (create, read, update and delete) operations on their blogs and their account. The app asks for an email which would be unique and the name, password for authentication. The front end is responsive to laptops and mobile screens
 
-### `npm start`
+ - Home Page
+![image](https://user-images.githubusercontent.com/64428099/163404986-5ef4a2fd-1c03-4a5c-8b8d-c062f66f72c1.png)
+ - Login & Signup
+![image](https://user-images.githubusercontent.com/64428099/163405208-ff044393-84bd-4bd9-929e-ac4f4ccea7bb.png)
+![image](https://user-images.githubusercontent.com/64428099/163405254-fa84b8e3-4c45-4051-9611-584b5392cd06.png)
+ - Dashboard - It shows a form to create a new blog, view all the blogs and take a look on the latest three blogs, an option to view the profile and logout of the session
+![image](https://user-images.githubusercontent.com/64428099/163405616-82079490-c0c4-4c17-b5e7-685dd4ddec91.png)
+ - Profile Page - The user can view their blogs, edit them, delete them, update their profile and their profile picture
+![image](https://user-images.githubusercontent.com/64428099/163405910-86236295-62d3-4b31-9efe-d4b064c136de.png)
+ - Update Blog Option
+![image](https://user-images.githubusercontent.com/64428099/163406070-c3db33d5-fcc6-4582-94a0-4f4e1d274188.png)
+ - Delete Blog Option
+![image](https://user-images.githubusercontent.com/64428099/163406175-f5e17a7d-f434-4ea8-aaf3-56ff1960eded.png)
+ - Update Profile Option
+![image](https://user-images.githubusercontent.com/64428099/163406237-1ac4721e-75a4-4c62-8544-41e7585d56bc.png)
+ - Deleting Profile Option
+![image](https://user-images.githubusercontent.com/64428099/163406326-d7717885-e935-41cc-a71c-086139ee1a26.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
