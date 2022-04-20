@@ -170,7 +170,9 @@
     }
     .edit-icon {
         display: inline-block;
-        margin-left: 95%;
+        position: absolute;
+        margin-left: 91%;
+        margin-top: -2.5%;;
         margin-top: 0%;
         transform: scale(1.1);
     }
