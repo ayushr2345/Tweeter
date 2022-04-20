@@ -347,7 +347,7 @@ a:hover {
         text-align: left;
         width: 80%;
     }
-    .card-subtitle {
+    .card-subtitle, .card-text:last-child {
         margin-bottom: 5%;
     }
 }
