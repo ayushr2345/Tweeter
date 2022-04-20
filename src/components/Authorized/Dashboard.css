@@ -326,15 +326,12 @@ a:hover {
         display: inline-block;
         position: absolute;
         border-radius: 50%;
-        margin-left: 76.5%;
+        right: 5.25%;
         top: 7.5%;
     }
     .user-bio-blog {
         display: inline-block;
         position: absolute;
-        margin-left: 83%;
-        margin-top: 10.5%;
-        margin-bottom: 7.5%;
         color: black;
         font-style: italic;
         font-weight: 600;
@@ -343,6 +340,8 @@ a:hover {
         border-radius: 2%;
         padding: 1%;
         text-align: center;
+        right: 3%;
+        top: 33%;
     }
     .article-text{
         text-align: left;
