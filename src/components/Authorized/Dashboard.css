@@ -348,4 +348,7 @@ a:hover {
         text-align: left;
         width: 80%;
     }
+    .card-subtitle {
+        margin-bottom: 5%;
+    }
 }
