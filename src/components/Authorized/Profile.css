@@ -171,9 +171,8 @@
     .edit-icon {
         display: inline-block;
         position: absolute;
-        margin-left: 91%;
-        margin-top: -2.5%;;
-        margin-top: 0%;
+        margin-left: 90%;
+        margin-top: -2.5%;
         transform: scale(1.1);
     }
     .edit-icon:hover, .delete-icon:hover {
