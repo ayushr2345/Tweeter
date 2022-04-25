@@ -23,7 +23,7 @@ function About() {
           The database used is MongoDB hosted on MongoDB Atlas.
           <br /> <br />
           <div className="about-links">
-            My Resume: <a href="https://drive.google.com/file/d/1fxssd8Rip0zXYXZAxLg31DqiNBkeMjg5/view?usp=sharing"><i>Click here</i></a>
+            My Resume: <a href="https://drive.google.com/file/d/1n46s0l_is1wLR3XFRTjCViG-XZYIOSMb/view?usp=sharing"><i>Click here</i></a>
             <br />
             Contact me: <a href="/contact"><i>Click here</i></a>
           </div>
